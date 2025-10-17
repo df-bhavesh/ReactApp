@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 const ColorPicker = () => {
-    const [color, setColor] = useState("#111111");
+    const [color, setColor] = useState("#FF0000");
     const [copyColor, setCopyColor] = useState(false);
     function handleColorChange(e) {
         setColor(e.target.value);
